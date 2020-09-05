@@ -9,8 +9,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let girls = ["Ifa", "shuvo", "Rodoshi"]
+    let hikes = Hike.all()
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        List(self.hikes, id: \.name ) { hike in
+            Text(hike.name)
+        }
+//        ZStack{
+//            Color.green.edgesIgnoringSafeArea(.all)
+//
+//            Image("diamond")
+//                .resizable()
+//                .scaledToFill()
+//                .edgesIgnoringSafeArea(.all)
+//
+//            VStack {
+//                Text("Hello, World!")
+//                Spacer()
+//                Text("this is my first SwiftUI app")
+//            }
+//        }
+        
     }
 }
 
