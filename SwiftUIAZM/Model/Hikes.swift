@@ -17,9 +17,9 @@ struct Hike {
 extension Hike {
     static func all()-> [Hike] {
         return [
-            Hike(name: "Fisheries", imageURL: "sal", miles: 2.3),
-            Hike(name: "Riverbank", imageURL: "sal", miles: 2.5),
-            Hike(name: "Ashek Mahmood College", imageURL: "sal", miles: 5.8)
+            Hike(name: "Fisheries", imageURL: "tanvir", miles: 2.3),
+            Hike(name: "Riverbank", imageURL: "tanvirgeek", miles: 2.5),
+            Hike(name: "Ashek Mahmood College", imageURL: "diamond", miles: 5.8)
         ]
     }
 }
